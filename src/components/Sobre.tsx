@@ -7,7 +7,7 @@ export function Sobre( ){
              <div>
             <Image
           className='rounded-full w-68'
-          alt="Logo minhas anotações"
+          alt="Logo Camila"
           src={avatar}
           priority/>
             </div>
