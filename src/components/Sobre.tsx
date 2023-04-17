@@ -1,5 +1,5 @@
 import {FaRegHeart} from 'react-icons/fa'
-import avatar from '../../public/assets/Camila-foto.jpg'
+import avatar from '../../public/assets/Camila-Sobre.jpg'
 import Image from 'next/image'
 export function Sobre( ){
     return(
