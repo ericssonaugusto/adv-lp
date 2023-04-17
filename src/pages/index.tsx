@@ -10,7 +10,9 @@ export default function Home() {
   return (
     <>
     <Header />
+    
     <Sobre />
+    
     <Area />
     <Contact />
     </>
