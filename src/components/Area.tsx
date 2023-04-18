@@ -1,35 +1,24 @@
 export function Area(){
     return(
-        <section className="flex items-center flex-col pt-2">
-            <h2 className="font-bold text-4xl text-center my-16 border-b-4 pb-2 border-red-900">Área de Atuação</h2>
-            <ul className="grid max-w-screen-xl	 grid-cols-1 gap-6 m-10 p-10 lg:grid-cols-3">
+        <section id="area" className="flex items-center flex-col py-8">
+            <ul className="grid w-3/4 grid-cols-1 gap-6 lg:grid-cols-3">
                 <li>
                     <span>Área de atuação</span>
                     <h3 className="font-bold text-2xl mb-4">Direito Cível</h3>
-                    <p>Área do Direito Cível, que regula as relações 
-                        jurídicas entre as pessoas, sejam elas naturais 
-                        ou jurídicas, que comumente encontram-se em uma 
-                        situação de equilíbrio de condições, nossos focos 
-                        se distribuem pelo Direito Imobiliário, Responsabilidade Civil, 
-                        Família e Sucessões, Contratual e Direito do Consumidor.</p>                        
+                    <p>Trata as relações entre pessoas e empresas em questões 
+                        como contratos, propriedade, herança e responsabilidade civil.</p>                        
                 </li>                
                 <li>
                     <span>Área de atuação</span>
                     <h3 className="font-bold text-2xl mb-4">Previdenciário</h3>
-                    <p>Uma área do direito que estuda a 
-                        regulamentação da Seguridade Social. Seu 
-                        objetivo é disciplinar a Previdência Social, 
-                        definindo regras sobre o recolhimento de 
-                        contribuições sociais e normas para 
-                        concessão de benefícios previdenciários, 
-                        como aposentadoria, auxílio-doença e pensão.</p>                        
+                    <p>Trata diretamente sobre a previdência, o que 
+                        significa a aposentadoria e todas as suas particularidades.</p>                        
                 </li>
                 <li>
                     <span>Área de atuação</span>
-                    <h3 className="font-bold text-2xl mb-4">Direito Penal</h3>
-                    <p>A função do direito penal é de proteger os bens 
-                        jurídicos estabelecidos como importantes dentro
-                         de uma sociedade em seu contexto histórico.</p>                        
+                    <h3 className="font-bold text-2xl mb-4">Trabalhista</h3>
+                    <p>Trata as relações entre empregadores e empregados, incluindo 
+                        questões de contratação, remuneração, jornada de trabalho e direitos trabalhistas.</p>                        
                 </li>
             </ul>
         </section>

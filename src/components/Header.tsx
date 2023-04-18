@@ -5,14 +5,21 @@ import logo from '../../public/assets/Camila-Logo.svg'
 export function Header(){
     return(
         <>
-        <header className='flex items-center p-16 gap-6'>
+        <header className='flex flex-col items-center pt-16 gap-2'>
         <Image
-          className='w-12'
           alt="Logotipo Dr. Camilia Advogada"
           src={logo}
+          width={120}
           priority/>
-      <h1 className='text-gray-800 text-xl font-serif uppercase	'>Camila Schuller Lopes</h1>
-      <h2 className='text-gray-600 text-1xl'>Advocacia</h2>     
+      <h1 className='text-gray-800 text-3xl font-serif uppercase	'>Camila Schuller Lopes</h1>
+      <h2 className='text-gray-600 text-2xl uppercase tracking-widest'>Advocacia</h2>
+      <nav>
+        <ul className='flex gap-6 text-gray-600 text-gl uppercase tracking-widest pt-16'>
+            <li><a href="#area">Especialidades</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contatos</a></li>
+        </ul>
+      </nav>     
       </header>
       <div className='bg-banner bg-no-repeat bg-cover w-full my-4'>
         <div className='w-full flex gap-4 flex-col justify-center items-center h-screen bg-opacity-80 bg-black'>

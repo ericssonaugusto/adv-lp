@@ -5,9 +5,9 @@ import { SiGmail } from 'react-icons/si';
 
 export function Contact() {
     return(
-        <section className='flex items-center flex-col p-10 border-t-2 '>
+        <section id="contato" className='flex items-center flex-col py-48 border-t-2 '>
         <h2 className='text-4xl font-bold m-14 border-b-4 pb-2 border-red-900'>Contatos</h2>
-        <ul className=' grid gap-4 grid-cols-1 items-center lg:grid-cols-4'>
+        <ul className=' grid gap-8 grid-cols-1 w-3/4 items-center lg:grid-cols-4'>
         <li className='flex flex-col items-center gap-2'>
         <FaPhoneAlt color='#660000' size={24}/>
         <h3 className='font-bold text-3xl mt-6'>Telefone</h3>

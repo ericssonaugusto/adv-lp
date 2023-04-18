@@ -3,10 +3,10 @@ import avatar from '../../public/assets/Camila-Sobre.jpg'
 import Image from 'next/image'
 export function Sobre( ){
     return(
-        <section className="flex items-center  gap-6 my-20 mx-60 p-12">
+        <section id="sobre" className="flex items-center justify-center gap-6 mx-auto my-16 w-3/4">
              <div>
             <Image
-          className='rounded-full w-68'
+          className='rounded-full w-48'
           alt="Logo Camila"
           src={avatar}
           priority/>
@@ -19,7 +19,7 @@ export function Sobre( ){
             color='#660000'
             />
             </header>   
-            <p className="text-2xl font-extralight"> Ofereço aos meus clientes todo suporte 
+            <p className="text-2xl font-light"> Ofereço aos meus clientes todo suporte 
                 consultivo e contencioso.</p>
             </div>
            
