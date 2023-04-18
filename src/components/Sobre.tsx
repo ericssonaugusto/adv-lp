@@ -3,7 +3,7 @@ import avatar from '../../public/assets/Camila-Sobre.jpg'
 import Image from 'next/image'
 export function Sobre( ){
     return(
-        <section id="sobre" className="flex items-center justify-center gap-6 mx-auto my-16 w-3/4">
+        <section id="sobre" className="flex flex-col items-center justify-center gap-6 mx-auto my-16 w-3/4 lg:flex-row">
              <div>
             <Image
           className='rounded-full w-48'

@@ -11,8 +11,8 @@ export function Header(){
           src={logo}
           width={120}
           priority/>
-      <h1 className='text-gray-800 text-3xl font-serif uppercase	'>Camila Schuller Lopes</h1>
-      <h2 className='text-gray-600 text-2xl uppercase tracking-widest'>Advocacia</h2>
+      <h1 className='text-gray-800 text-2xl font-serif uppercase lg:text-3xl'>Camila Schuller Lopes</h1>
+      <h2 className='text-gray-600 text-1xl uppercase tracking-widest lg:text-2xl'>Advocacia</h2>
       <nav>
         <ul className='flex gap-6 text-gray-600 text-gl uppercase tracking-widest pt-16'>
             <li><a href="#area">Especialidades</a></li>
@@ -21,9 +21,9 @@ export function Header(){
         </ul>
       </nav>     
       </header>
-      <div className='bg-banner bg-no-repeat bg-cover w-full my-4'>
-        <div className='w-full flex gap-4 flex-col justify-center items-center h-screen bg-opacity-80 bg-black'>
-        <h2 className='text-white font-bold text-6xl'>
+      <div className='bg-banner bg-no-repeat bg-cover my-4'>
+        <div className='w-full flex gap-4 flex-col justify-center px-6 items-center h-screen bg-opacity-80 bg-black'>
+        <h2 className='text-white font-bold text-4xl lg:text-6xl'>
             Direito Civil, Previdenciário e Trabalhista </h2>
         <p className='text-white text-2xl'>
             Soluções jurídicas que atendem suas necessidades 
