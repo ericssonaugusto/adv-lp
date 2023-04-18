@@ -1,7 +1,7 @@
 export function Area(){
     return(
         <section id="area" className="flex items-center flex-col py-8">
-            <ul className="grid w-3/4 grid-cols-1 gap-6 lg:grid-cols-3">
+            <ul className="grid w-4/6 py-12 grid-cols-1 gap-6 lg:grid-cols-3">
                 <li>
                     <span>Área de atuação</span>
                     <h3 className="font-bold text-2xl mb-4">Direito Cível</h3>

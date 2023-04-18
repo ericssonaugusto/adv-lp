@@ -5,17 +5,21 @@ import { Local } from '@/components/Local'
 import { Sobre } from '@/components/Sobre'
 import { Footer } from '@/components/Footer'
 import { Inter } from 'next/font/google'
+import { Faq } from '@/components/Faq'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
   return (
     <>
     <Header />
     <Sobre />
-    <Area />    
+    <Area /> 
+    <Faq />
     <Contact />
     <Local />
+    
     <Footer />
     </>
   )

@@ -5,7 +5,7 @@ import { SiGmail } from 'react-icons/si';
 
 export function Contact() {
     return(
-        <section id="contato" className='flex items-center flex-col py-8 lg:py-48 border-t-2 '>
+        <section id="contato" className='flex items-center flex-col py-8 lg:py-28 border-t-2 '>
         <h2 className='text-4xl font-bold m-14 border-b-4 pb-2 border-red-900'>Contatos</h2>
         <ul className=' grid gap-8 grid-cols-1 w-3/4 items-center lg:grid-cols-4'>
         <li className='flex flex-col items-center gap-2'>
@@ -13,10 +13,11 @@ export function Contact() {
         <h3 className='font-bold text-3xl mt-6'>Telefone</h3>
         <span>(45) 99968-9178</span>        
         </li>
-        <li className='flex flex-col items-center gap-2'>
+        <li className='flex flex-col items-center gap-2'><a href="https://wa.me/5545999689178?text=Tenho%20interesse%20em%20comprar%20seu%20carro">
         <FaWhatsapp color='#660000' size={32}/>
         <h3 className='font-bold text-3xl mt-6'>WhatsApp</h3>
-        <span>(45) 99968-9178</span>        
+        <span>(45) 99968-9178</span>
+        </a>        
         </li>
         <li className='flex flex-col items-center gap-2'>
         <FaFacebook color='#660000' size={32}/>
