@@ -37,7 +37,7 @@ export function Faq(){
       {accordionData.map((data, index) => {
         return <Accordion 
         key={index} 
-        open={index === open} 
+        open={index === open as any} 
         title={data.title} 
         content={data.content} 
         toggle={() => toggle(index)}
