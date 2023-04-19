@@ -7,7 +7,7 @@ export function Faq(){
   const [open, setOpen] = useState(false);
   const toggle = (index:any) => {
     if (open === index) {
-      return setOpen(null)
+      return setOpen(null as any)
     }
     setOpen(index)
   }
